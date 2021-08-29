@@ -1,0 +1,71 @@
+[
+  {
+    "year": "2021",
+    "achievements": [
+      {
+        "title": "Doing Some Research Project",
+        "description": "Collect and analyze NASA exo-planets data in outer sollar system."
+      },
+      {
+        "title": "Joined Dorsian Software Studio (PT. Skala Nusantara Digital)",
+        "description": "Collaboration as freelance-client partner to build small-medium mobile and web project."
+      },
+      {
+        "title": "Did A Lot of Freelance Projects",
+        "description": "Did multiple freelance projects with multiple organizations and clients."
+      },
+      {
+        "title": "Got Internship at Brilyan Trimatra Utama",
+        "description": "A tech company from Bekasi doing big project at PON 2020 Papua."
+      }
+    ]
+  },
+  {
+    "year": "2020",
+    "achievements": [
+      {
+        "title": "Won 1st Place in App Development Challenge",
+        "description": "Marathon challenge to build hospital problem solution in 7 days using Flutter."
+      },
+      {
+        "title": "Biggest Project Yet",
+        "description": "Building from scratch food order payment gateway system."
+      },
+      {
+        "title": "Graduated from Vocational High School",
+        "description": "Saying goodbye to free time and hometown buddies."
+      }
+    ]
+  },
+  {
+    "year": "2019",
+    "achievements": [
+      {
+        "title": "Got My First Paid Fullstack Project",
+        "description": "Building online shop website for my friend's bussiness."
+      },
+      {
+        "title": "Got Internship at Diginova Kreasi Indonesia",
+        "description": "Think to solve problem by building software products for my school."
+      }
+    ]
+  },
+  {
+    "year": "2017",
+    "achievements": [
+      {
+        "title": "One of My First Real Codes",
+        "description": "Got into basic programming in highschool. Used C++ to solve algorithm."
+      }
+    ]
+  },
+  {
+    "year": "2002",
+    "achievements": [
+      {
+        "title": "Signed in The Game",
+        "description": ""
+      }
+    ]
+  }
+]

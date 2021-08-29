@@ -26,8 +26,13 @@ export default function Hero() {
           </Text>
 
           {/* INTEREST ITEMS */}
-          {heroData.map((value) => (
-            <Text fontSize={["sm", "md"]} mb={[5, 8]} lineHeight={1.8}>
+          {heroData.map((value, index) => (
+            <Text
+              key={index}
+              fontSize={["sm", "md"]}
+              mb={[5, 8]}
+              lineHeight={1.8}
+            >
               {value}
             </Text>
           ))}

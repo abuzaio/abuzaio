@@ -16,8 +16,9 @@ export default function Featured() {
       </Text>
 
       {/* POST ITEM 1 */}
-      {postData.map((value) => (
+      {postData.map((value, index) => (
         <PostItem
+          key={index}
           route={`/blog/${value.title.toLowerCase().replace(" ", "-")}`}
           title={value.title}
           subtitle={value.subtitle}
