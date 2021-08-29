@@ -20,13 +20,13 @@ class MyDocument extends Document {
           <script
             dangerouslySetInnerHTML={{
               __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-206149970-1', {
-              page_path: window.location.pathname,
-            });
-          `,
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'UA-206149970-1', {
+                  page_path: window.location.pathname,
+                });
+              `,
             }}
           />
         </Head>

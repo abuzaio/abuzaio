@@ -1,5 +1,6 @@
 import { Box, Flex, Text } from "@chakra-ui/layout";
 import Image from "next/image";
+import heroData from "../../../data/hero.json";
 
 export default function Hero() {
   return (
@@ -24,27 +25,12 @@ export default function Hero() {
             こんにちは, I&apos;m Abu Aziz
           </Text>
 
-          {/* INTEREST TEXT 1 */}
-          <Text fontSize={["sm", "md"]} mb={[5, 8]}>
-            💫 Have interest at Software Engineering and Astrophysics
-          </Text>
-
-          {/* INTEREST TEXT 2 */}
-          <Text fontSize={["sm", "md"]} mb={[5, 8]}>
-            💻 Build Full-Stack apps with Flutter, Firebase, NextJS, and
-            Typescript
-          </Text>
-
-          {/* INTEREST TEXT 3 */}
-          <Text fontSize={["sm", "md"]} mb={[5, 8]}>
-            🔬 Doing some research projects on Neuroscience and Astronomy
-          </Text>
-
-          {/* INTEREST TEXT 4 */}
-          <Text fontSize={["sm", "md"]} mb={[5, 8]}>
-            📝 Currently work as Freelancer and likes to write personal blogs /
-            article about Science, Anime, and Technology
-          </Text>
+          {/* INTEREST ITEMS */}
+          {heroData.map((value) => (
+            <Text fontSize={["sm", "md"]} mb={[5, 8]} lineHeight={1.8}>
+              {value}
+            </Text>
+          ))}
         </Box>
 
         {/* RIGHT SIDE: WORKS ILLUSTRATION */}

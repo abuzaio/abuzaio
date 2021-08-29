@@ -1,6 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
+import { useEffect } from "react";
 import Footer from "../components/sections/Footer";
 import Navbar from "../components/sections/Navbar";
 import theme from "../config/theme";
