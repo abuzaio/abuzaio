@@ -34,7 +34,11 @@ function MyApp({ Component, pageProps }) {
           who experienced on software development 
           and currently running Expasion Works"
         />
-        <link rel="icon" href="/banana.png" />
+        <link rel="icon" href="/icons/banana.png" />
+        <meta
+          name="viewport"
+          content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
+        />
       </Head>
       <ChakraProvider theme={theme}>
         <Navbar />

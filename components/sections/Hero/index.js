@@ -42,7 +42,7 @@ export default function Hero() {
         <Box ml={[0, 0, 0, 28]}>
           <Box borderRadius={20}>
             <Image
-              src="/hero.svg"
+              src="/pictures/hero.svg"
               alt="Picture of The Author"
               width={600}
               height={600}

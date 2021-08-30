@@ -1,6 +1,7 @@
 import { Box, Center, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import PortoCard from "../../atoms/PortoCard";
+import portfolioData from "../../../data/portfolio.json";
 
 export default function Portfolio() {
   return (
@@ -14,96 +15,27 @@ export default function Portfolio() {
           Portfolio
         </Text>
       </Center>
-      <PortoCard
-        isOdd
-        url="https://www.pld-ui.com/"
-        imageSrc="/pld-fkui.png"
-        title="Seminar PLD UI 2022/2023"
-        description="Registration and Payment System for PLD UI Seminars"
-        stacks={[
-          <Image
-            key={1}
-            src="/react.png"
-            width={46}
-            height={46}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/react.png"
-          />,
-          <Image
-            key={2}
-            src="/node.png"
-            width={105}
-            height={70}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/node.png"
-          />,
-          <Image
-            key={3}
-            src="/react.png"
-            width={46}
-            height={46}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/react.png"
-          />,
-          <Image
-            key={4}
-            src="/node.png"
-            width={105}
-            height={70}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/node.png"
-          />,
-        ]}
-      />
-      <PortoCard
-        isOdd={false}
-        url="https://www.pld-ui.com/"
-        imageSrc="/pld-fkui.png"
-        title="Seminar PLD UI 2022/2023"
-        description="Registration and Payment System for PLD UI Seminars"
-        stacks={[
-          <Image
-            key={1}
-            src="/react.png"
-            width={46}
-            height={46}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/react.png"
-          />,
-          <Image
-            key={2}
-            src="/node.png"
-            width={105}
-            height={70}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/node.png"
-          />,
-          <Image
-            key={3}
-            src="/react.png"
-            width={46}
-            height={46}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/react.png"
-          />,
-          <Image
-            key={4}
-            src="/node.png"
-            width={105}
-            height={70}
-            quality={50}
-            placeholder="blur"
-            blurDataURL="/node.png"
-          />,
-        ]}
-      />
+      {portfolioData.map((value, index) => (
+        <PortoCard
+          key={index}
+          isOdd={index % 2 === 0}
+          url={value.url}
+          imageSrc={value.picture}
+          title={value.title}
+          description={value.description}
+          stacks={value.stacks.map((item, count) => (
+            <Image
+              key={count}
+              src={item.logo}
+              width={item.width}
+              height={item.height}
+              blurDataURL={item.logo}
+              quality={50}
+              placeholder="blur"
+            />
+          ))}
+        />
+      ))}
     </Box>
   );
 }

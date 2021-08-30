@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://www.pld-ui.com/",
+    "picture": "/portfolios/pld-fkui.png",
+    "title": "Seminar PLD UI 2022/2023",
+    "description": "Registration and Payment System for PLD UI Seminars",
+    "stacks": [
+      {
+        "width": 46,
+        "height": 46,
+        "logo": "/techstacks/react.png"
+      },
+      {
+        "width": 105,
+        "height": 70,
+        "logo": "/techstacks/node.png"
+      }
+    ]
+  },
+  {
+    "url": "https://risetku.com/",
+    "picture": "/portfolios/risetku.png",
+    "title": "Risetku",
+    "description": "Student’s Research Platform",
+    "stacks": [
+      {
+        "width": 46,
+        "height": 46,
+        "logo": "/techstacks/react.png"
+      },
+      {
+        "width": 105,
+        "height": 70,
+        "logo": "/techstacks/node.png"
+      }
+    ]
+  }
+]

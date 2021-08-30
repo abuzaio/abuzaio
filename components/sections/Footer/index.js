@@ -25,7 +25,7 @@ export default function Footer() {
           <Link href="https://twitter.com/abuzaio">
             <a target="_blank">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/twitter.svg" width={20} height={20} />
+                <Image src="/icons/twitter.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>
@@ -34,7 +34,7 @@ export default function Footer() {
           <Link href="https://github.com/abuazis">
             <a target="_blank">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/github.svg" width={20} height={20} />
+                <Image src="/icons/github.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>
@@ -43,7 +43,7 @@ export default function Footer() {
           <Link href="mailto:abuaziscorp@gmail.com">
             <a target="_blank">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/email.svg" width={20} height={20} />
+                <Image src="/icons/email.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>
