@@ -1,5 +1,5 @@
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Fade, Flex, Text } from "@chakra-ui/react";
 import TimelineItem from "../../atoms/TimelineItem";
 import timelineData from "../../../data/timeline.json";
 import { useState } from "react";
@@ -20,9 +20,9 @@ export default function Timeline() {
       </Text>
 
       {timelineData
-        .slice(0, showAll ? timelineData.length - 1 : 2)
+        .slice(0, showAll ? timelineData.length : 2)
         .map((value, index) => (
-          <Box key={index}>
+          <Fade key={index} in={true}>
             <Text
               fontWeight="extrabold"
               letterSpacing="wide"
@@ -38,7 +38,7 @@ export default function Timeline() {
                 description={item.description}
               />
             ))}
-          </Box>
+          </Fade>
         ))}
       <Box
         mt={10}

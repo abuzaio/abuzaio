@@ -20,7 +20,9 @@ export default function PostItem({ route, title, subtitle }) {
         >
           {title}
         </Text>
-        <Text fontSize={["sm", "md"]}>{subtitle}</Text>
+        <Text fontSize={["sm", "md"]} lineHeight={1.7}>
+          {subtitle}
+        </Text>
       </Box>
     </Link>
   );

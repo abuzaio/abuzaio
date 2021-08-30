@@ -14,7 +14,7 @@ export default function TimelineItem({ title, description }) {
       </Flex>
       <Flex direction>
         <Box mr={[8, 9]} mt={1} />
-        <Text mt={3} fontSize={["sm", "md"]}>
+        <Text mt={3} fontSize={["sm", "md"]} lineHeight={1.8}>
           {description}
         </Text>
       </Flex>
