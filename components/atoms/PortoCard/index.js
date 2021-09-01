@@ -39,6 +39,7 @@ export default function PortoCard({
                 objectFit="cover"
                 placeholder="blur"
                 blurDataURL={imageSrc}
+                quality={100}
                 className="porto-image"
               />
               <Box
@@ -73,7 +74,7 @@ export default function PortoCard({
                     </Text>
                     <Flex direction="row" alignItems="center">
                       {stacks.map((value, index) => (
-                        <Box key={index} mx={2} my={1}>
+                        <Box key={index} mx={3} my={1}>
                           {value}
                         </Box>
                       ))}

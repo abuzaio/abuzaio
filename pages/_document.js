@@ -12,6 +12,8 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta charset="utf-8" />
+          <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="application-name"
             content="Abu Aziz - Portfolio & Writings"
@@ -29,6 +31,11 @@ class MyDocument extends Document {
             name="description"
             content="Someone who have interest on tech and science"
           />
+          <meta
+            name="keywords"
+            content="coding, programmer, mobile, flutter, react, node, laravel"
+          />
+          <meta name="developer" content="Abu Aziz" />
           <meta name="format-detection" content="telephone=no" />
           <meta name="mobile-web-app-capable" content="yes" />
           <meta
@@ -55,7 +62,6 @@ class MyDocument extends Document {
             sizes="167x167"
             href="/static/icons/touch-icon-ipad-retina.png"
           />
-
           <link
             rel="icon"
             type="image/png"
@@ -75,7 +81,6 @@ class MyDocument extends Document {
             color="#5bbad5"
           />
           <link rel="shortcut icon" href="/icons/banana.png" />
-
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:url" content="https://abuzaio.me" />
           <meta

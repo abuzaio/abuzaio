@@ -1,37 +1,542 @@
 [
   {
+    "url": "/#",
+    "picture": "/portfolios/harkit.png",
+    "title": "Harkit I-Care App",
+    "description": "Patient lifestyle tracker and monitoring for Pusat Jantung Nasional Harapan Kita",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      },
+      {
+        "width": 84,
+        "height": 42,
+        "logo": "/techstacks/golang.svg"
+      }
+    ]
+  },
+  {
     "url": "https://www.pld-ui.com/",
-    "picture": "/portfolios/pld-fkui.png",
+    "picture": "/portfolios/pld-ui.png",
     "title": "Seminar PLD UI 2022/2023",
     "description": "Registration and Payment System for PLD UI Seminars",
     "stacks": [
       {
-        "width": 46,
-        "height": 46,
-        "logo": "/techstacks/react.png"
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
       },
       {
-        "width": 105,
-        "height": 70,
-        "logo": "/techstacks/node.png"
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/tailwind.svg"
+      },
+      {
+        "width": 84,
+        "height": 42,
+        "logo": "/techstacks/golang.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abuazis/Comida",
+    "picture": "/portfolios/comida.png",
+    "title": "Comida Food Market System",
+    "description": "Food ordering app with marketplace merchant system",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/laravel.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://pon-papua-fe.vercel.app/",
+    "picture": "/portfolios/pon-papua.png",
+    "title": "Official Web PON Papua 2020",
+    "description": "Provides all about technical and information for PON PAPUA 2020",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/next.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/art-do.png",
+    "title": "Art Do Designer",
+    "description": "Showcase app that provides many projects design for hiring Professional Designer",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://ligamedika.co/",
+    "picture": "/portfolios/liga-medika.png",
+    "title": "Liga Medika",
+    "description": "FKUI's Largest annual event, Landing Page and Registration System",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://flutix.appect.com/",
+    "picture": "/portfolios/flutix.png",
+    "title": "Flutix",
+    "description": "Helps people to buy online movie tickets to watch in cinema",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "http://cepat.co/",
+    "picture": "/portfolios/cepat.png",
+    "title": "Cepat Commerce",
+    "description": "Fastest ecommerce experience in Indonesian",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/tailwind.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      },
+      {
+        "width": 40,
+        "height": 40,
+        "logo": "/techstacks/midtrans.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/e-library.png",
+    "title": "School E-Library",
+    "description": "Online loan book system for library SMA 2 PGRI Palembang",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
       }
     ]
   },
   {
     "url": "https://risetku.com/",
     "picture": "/portfolios/risetku.png",
-    "title": "Risetku",
+    "title": "RisetKu",
     "description": "Student’s Research Platform",
     "stacks": [
       {
-        "width": 46,
-        "height": 46,
-        "logo": "/techstacks/react.png"
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
       },
       {
-        "width": 105,
-        "height": 70,
-        "logo": "/techstacks/node.png"
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/tailwind.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abuazis/CoWork/",
+    "picture": "/portfolios/cowork.png",
+    "title": "CoWork",
+    "description": "Finding comfortable thousands co-working space",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://hooda.id/",
+    "picture": "/portfolios/hooda.png",
+    "title": "Hooda",
+    "description": "Super app service likes food, shop, drive, mitra and career",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/next.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://fudamiku.appect.com/",
+    "picture": "/portfolios/fudamiku.png",
+    "title": "Fudamiku",
+    "description": "Order food system for Fudamiku Restaurant",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/laravel.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/midtrans.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://admin.hooda.id/",
+    "picture": "/portfolios/hooda-admin.png",
+    "title": "Hooda Admin CMS",
+    "description": "Administrator content management system for hooda.id",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://savana.appect.com/",
+    "picture": "/portfolios/savana.png",
+    "title": "Savana",
+    "description": "Daily saving routine target needed for mobile user",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abuazis/Bookos/",
+    "picture": "/portfolios/hujjah.png",
+    "title": "Hujjah Store",
+    "description": "Book eccomerce with marketplace system",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/laravel.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/bootstrap.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://goabsensi.appect.com/",
+    "picture": "/portfolios/goabsensi.png",
+    "title": "Go Absensi",
+    "description": "Modern presence app with prevent fake GPS system",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abuazis/pwpb_xiirpl_1920_03_abutoyibalazis",
+    "picture": "/portfolios/resto-serve.png",
+    "title": "Resto Serve",
+    "description": "Point of Sale Restaurant with multiple user roles",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/laravel.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/bootstrap.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://hchospital.appect.com/",
+    "picture": "/portfolios/hc-hospital.png",
+    "title": "HC Hospital",
+    "description": "Rich features booking doctor app likes check-up, consult, routines control",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/abuazis/Multiplaza/",
+    "picture": "/portfolios/multiplaza.png",
+    "title": "Multiplaza",
+    "description": "Electronic products eccomerce for seller and buyyer",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/codeigniter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/bootstrap.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/bank-sampah.png",
+    "title": "Bank Sampah",
+    "description": "Saving point apps with banking garbage system",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/digiport.png",
+    "title": "Digital Raport",
+    "description": "Digital student achievement reporting platform",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/codeigniter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/bootstrap.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/siskomsid.png",
+    "title": "Judicial Information System",
+    "description": "Handle information update about court case",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/codeigniter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "https://alarm-sholat.vercel.app/",
+    "picture": "/portfolios/al-ashr.png",
+    "title": "Al-Ashr",
+    "description": "Prayer time reminder",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/go-hospital.png",
+    "title": "Go Hospital",
+    "description": "Booking medical service apps for Columbia Asia Hospital in Medan",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/go-web.png",
+    "title": "Go Hospital Admin",
+    "description": "Admin side medical service web for Columbia Asia Hospital in Medan",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/flutter.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/firebase.svg"
+      }
+    ]
+  },
+  {
+    "url": "/#",
+    "picture": "/portfolios/pms.png",
+    "title": "Performance Measuring System",
+    "description": "Performance employer management platform for Company",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
       }
     ]
   }
