@@ -6,7 +6,7 @@ import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Fade, Flex, Link, Text } from "@chakra-ui/react";
 
-export default function Portfolio() {
+export default function Portfolio({ type }) {
   const [showAll, setShowAll] = useState(false);
 
   return (
@@ -21,6 +21,9 @@ export default function Portfolio() {
         </Text>
       </Center>
       {portfolioData
+        .filter((element) =>
+          type === "mobile" || type === "web" ? element.type == type : true
+        )
         .slice(0, showAll ? portfolioData.length : 11)
         .map((value, index) => (
           <Fade key={index} in={true}>
@@ -76,6 +79,9 @@ export default function Portfolio() {
                   px={5}
                   bgColor="blackAlpha.300"
                   variant="solid"
+                  _hover={{
+                    textDecoration: "none",
+                  }}
                   leftIcon={
                     <Box mr={1}>
                       <Image src={WhatsappIcon} width={17} height={17} />

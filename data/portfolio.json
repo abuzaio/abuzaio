@@ -1,5 +1,6 @@
 [
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/harkit.png",
     "title": "Harkit I-Care App",
@@ -23,6 +24,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://www.pld-ui.com/",
     "picture": "/portfolios/pld-ui.png",
     "title": "Seminar PLD UI 2022/2023",
@@ -46,6 +48,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://github.com/abuazis/Comida",
     "picture": "/portfolios/comida.png",
     "title": "Comida Food Market System",
@@ -64,6 +67,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://pon-papua-fe.vercel.app/",
     "picture": "/portfolios/pon-papua.png",
     "title": "Official Web PON Papua 2020",
@@ -87,6 +91,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/art-do.png",
     "title": "Art Do Designer",
@@ -110,6 +115,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://ligamedika.co/",
     "picture": "/portfolios/liga-medika.png",
     "title": "Liga Medika",
@@ -133,6 +139,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://flutix.appect.com/",
     "picture": "/portfolios/flutix.png",
     "title": "Flutix",
@@ -151,6 +158,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "http://cepat.co/",
     "picture": "/portfolios/cepat.png",
     "title": "Cepat Commerce",
@@ -179,6 +187,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/e-library.png",
     "title": "School E-Library",
@@ -197,6 +206,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://risetku.com/",
     "picture": "/portfolios/risetku.png",
     "title": "RisetKu",
@@ -220,6 +230,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://github.com/abuazis/CoWork/",
     "picture": "/portfolios/cowork.png",
     "title": "CoWork",
@@ -238,6 +249,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://hooda.id/",
     "picture": "/portfolios/hooda.png",
     "title": "Hooda",
@@ -261,6 +273,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://fudamiku.appect.com/",
     "picture": "/portfolios/fudamiku.png",
     "title": "Fudamiku",
@@ -284,6 +297,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://admin.hooda.id/",
     "picture": "/portfolios/hooda-admin.png",
     "title": "Hooda Admin CMS",
@@ -307,6 +321,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://savana.appect.com/",
     "picture": "/portfolios/savana.png",
     "title": "Savana",
@@ -320,6 +335,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://github.com/abuazis/Bookos/",
     "picture": "/portfolios/hujjah.png",
     "title": "Hujjah Store",
@@ -338,6 +354,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://goabsensi.appect.com/",
     "picture": "/portfolios/goabsensi.png",
     "title": "Go Absensi",
@@ -356,6 +373,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://github.com/abuazis/pwpb_xiirpl_1920_03_abutoyibalazis",
     "picture": "/portfolios/resto-serve.png",
     "title": "Resto Serve",
@@ -374,6 +392,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "https://hchospital.appect.com/",
     "picture": "/portfolios/hc-hospital.png",
     "title": "HC Hospital",
@@ -392,6 +411,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://github.com/abuazis/Multiplaza/",
     "picture": "/portfolios/multiplaza.png",
     "title": "Multiplaza",
@@ -410,6 +430,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/bank-sampah.png",
     "title": "Bank Sampah",
@@ -428,6 +449,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "/#",
     "picture": "/portfolios/digiport.png",
     "title": "Digital Raport",
@@ -446,6 +468,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/siskomsid.png",
     "title": "Judicial Information System",
@@ -469,6 +492,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "https://alarm-sholat.vercel.app/",
     "picture": "/portfolios/al-ashr.png",
     "title": "Al-Ashr",
@@ -487,6 +511,7 @@
     ]
   },
   {
+    "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/go-hospital.png",
     "title": "Go Hospital",
@@ -505,6 +530,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "/#",
     "picture": "/portfolios/go-web.png",
     "title": "Go Hospital Admin",
@@ -523,6 +549,7 @@
     ]
   },
   {
+    "type": "web",
     "url": "/#",
     "picture": "/portfolios/pms.png",
     "title": "Performance Measuring System",
