@@ -12,13 +12,20 @@ export default function Portfolio({ type }) {
   return (
     <Box px={[8, 10, 20, 24]} py={[8, 10]}>
       <Center h={120}>
-        <Text
-          fontSize={["3xl", "4xl"]}
-          fontWeight="extrabold"
-          letterSpacing="widest"
-        >
-          Portfolio
-        </Text>
+        <Box>
+          <Text
+            fontSize={["3xl", "4xl"]}
+            fontWeight="extrabold"
+            letterSpacing="widest"
+            textAlign="center"
+          >
+            Portfolio
+          </Text>
+          <Text textAlign="center" mt={4}>
+            I aim to solve client&apos;s design and fullstack projects, feel
+            free to hit me up!
+          </Text>
+        </Box>
       </Center>
       {portfolioData
         .filter((element) =>
