@@ -140,7 +140,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://flutix.appect.com/",
+    "url": "https://play.google.com/store/apps/details?id=com.abuaziz.flutix",
     "picture": "/portfolios/flutix.png",
     "title": "Flutix",
     "description": "Helps people to buy online movie tickets to watch in cinema",
@@ -274,7 +274,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://fudamiku.appect.com/",
+    "url": "https://play.google.com/store/apps/details?id=com.abuaziz.fudamiku",
     "picture": "/portfolios/fudamiku.png",
     "title": "Fudamiku",
     "description": "Order food system for Fudamiku Restaurant",
@@ -322,7 +322,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://savana.appect.com/",
+    "url": "https://play.google.com/store/apps/details?id=com.abuaziz.savana",
     "picture": "/portfolios/savana.png",
     "title": "Savana",
     "description": "Daily saving routine target needed for mobile user",
@@ -355,7 +355,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://goabsensi.appect.com/",
+    "url": "https://play.google.com/store/apps/details?id=com.abuaziz.go_absensi",
     "picture": "/portfolios/goabsensi.png",
     "title": "Go Absensi",
     "description": "Modern presence app with prevent fake GPS system",
@@ -393,7 +393,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://hchospital.appect.com/",
+    "url": "https://play.google.com/store/apps/details?id=com.abuzaio.heaven_canceller_hospital",
     "picture": "/portfolios/hc-hospital.png",
     "title": "HC Hospital",
     "description": "Rich features booking doctor app likes check-up, consult, routines control",
