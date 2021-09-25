@@ -388,25 +388,6 @@
   },
   {
     "type": "web",
-    "url": "https://github.com/abuazis/ThisRaport",
-    "picture": "/portfolios/digiport.png",
-    "title": "Digital Raport",
-    "description": "Digital student achievement reporting platform",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/codeigniter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/bootstrap.svg"
-      }
-    ]
-  },
-  {
-    "type": "web",
     "url": "https://alarm-sholat.vercel.app/",
     "picture": "/portfolios/al-ashr.png",
     "title": "Al-Ashr",
