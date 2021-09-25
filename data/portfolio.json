@@ -297,30 +297,6 @@
     ]
   },
   {
-    "type": "web",
-    "url": "https://admin.hooda.id/",
-    "picture": "/portfolios/hooda-admin.png",
-    "title": "Hooda Admin CMS",
-    "description": "Administrator content management system for hooda.id",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/react.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/material-ui.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/node.svg"
-      }
-    ]
-  },
-  {
     "type": "mobile",
     "url": "https://play.google.com/store/apps/details?id=com.abuaziz.savana",
     "picture": "/portfolios/savana.png",
@@ -331,25 +307,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/flutter.svg"
-      }
-    ]
-  },
-  {
-    "type": "web",
-    "url": "https://github.com/abuazis/Bookos/",
-    "picture": "/portfolios/hujjah.png",
-    "title": "Hujjah Store",
-    "description": "Book eccomerce with marketplace system",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/laravel.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/bootstrap.svg"
       }
     ]
   },
@@ -369,25 +326,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/firebase.svg"
-      }
-    ]
-  },
-  {
-    "type": "web",
-    "url": "https://github.com/abuazis/Resto-Serve",
-    "picture": "/portfolios/resto-serve.png",
-    "title": "Resto Serve",
-    "description": "Point of Sale Restaurant with multiple user roles",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/laravel.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/bootstrap.svg"
       }
     ]
   },
@@ -464,30 +402,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/bootstrap.svg"
-      }
-    ]
-  },
-  {
-    "type": "mobile",
-    "url": "/#",
-    "picture": "/portfolios/siskomsid.png",
-    "title": "Judicial Information System",
-    "description": "Handle information update about court case",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/flutter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/codeigniter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/firebase.svg"
       }
     ]
   },
