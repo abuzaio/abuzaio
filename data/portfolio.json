@@ -159,49 +159,6 @@
   },
   {
     "type": "web",
-    "url": "https://risetku.com/",
-    "picture": "/portfolios/risetku.png",
-    "title": "RisetKu",
-    "description": "Student’s Research Platform",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/react.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/node.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/tailwind.svg"
-      }
-    ]
-  },
-  {
-    "type": "mobile",
-    "url": "https://github.com/abuazis/CoWork/",
-    "picture": "/portfolios/cowork.png",
-    "title": "CoWork",
-    "description": "Finding comfortable thousands co-working space",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/react.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/node.svg"
-      }
-    ]
-  },
-  {
-    "type": "web",
     "url": "https://hooda.id/",
     "picture": "/portfolios/hooda.png",
     "title": "Hooda",
