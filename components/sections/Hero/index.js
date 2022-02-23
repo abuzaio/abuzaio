@@ -37,18 +37,6 @@ export default function Hero() {
             </Text>
           ))}
         </Box>
-
-        {/* RIGHT SIDE: WORKS ILLUSTRATION */}
-        <Box ml={[0, 0, 0, 28]}>
-          <Box borderRadius={20}>
-            <Image
-              src="/pictures/hero.svg"
-              alt="Picture of The Author"
-              width={600}
-              height={600}
-            />
-          </Box>
-        </Box>
       </Flex>
     </Box>
   );

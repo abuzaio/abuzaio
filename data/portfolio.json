@@ -24,25 +24,6 @@
     ]
   },
   {
-    "type": "mobile",
-    "url": "https://github.com/abuazis/Comida",
-    "picture": "/portfolios/comida.png",
-    "title": "Comida Food Market System",
-    "description": "Food ordering app with marketplace merchant system",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/flutter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/laravel.svg"
-      }
-    ]
-  },
-  {
     "type": "web",
     "url": "https://www.ponxx2021papua.com/",
     "picture": "/portfolios/pon-papua.png",
@@ -87,6 +68,25 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/node.svg"
+      }
+    ]
+  },
+  {
+    "type": "web",
+    "url": "https://alarm-sholat.vercel.app/",
+    "picture": "/portfolios/al-ashr.png",
+    "title": "Al-Ashr",
+    "description": "Prayer time reminder",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
       }
     ]
   },
@@ -183,7 +183,7 @@
   },
   {
     "type": "mobile",
-    "url": "https://play.google.com/store/apps/details?id=com.abuaziz.fudamiku",
+    "url": "https://github.com/abuazis/Fudamiku",
     "picture": "/portfolios/fudamiku.png",
     "title": "Fudamiku",
     "description": "Order food system for Fudamiku Restaurant",
@@ -202,6 +202,25 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/midtrans.svg"
+      }
+    ]
+  },
+  {
+    "type": "web",
+    "url": "/#",
+    "picture": "/portfolios/pms.png",
+    "title": "Performance Measuring System",
+    "description": "Performance employer management platform for Company",
+    "stacks": [
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/react.svg"
+      },
+      {
+        "width": 42,
+        "height": 42,
+        "logo": "/techstacks/material-ui.svg"
       }
     ]
   },
@@ -277,25 +296,6 @@
     ]
   },
   {
-    "type": "web",
-    "url": "https://alarm-sholat.vercel.app/",
-    "picture": "/portfolios/al-ashr.png",
-    "title": "Al-Ashr",
-    "description": "Prayer time reminder",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/react.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/material-ui.svg"
-      }
-    ]
-  },
-  {
     "type": "mobile",
     "url": "/#",
     "picture": "/portfolios/go-hospital.png",
@@ -330,25 +330,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/firebase.svg"
-      }
-    ]
-  },
-  {
-    "type": "web",
-    "url": "/#",
-    "picture": "/portfolios/pms.png",
-    "title": "Performance Measuring System",
-    "description": "Performance employer management platform for Company",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/react.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/material-ui.svg"
       }
     ]
   }
