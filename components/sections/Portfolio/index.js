@@ -81,7 +81,7 @@ export default function Portfolio({ type }) {
               Hire Me For New Project
             </Text>
             <Center>
-              <Link href="https://wa.me/62895396780183" isExternal>
+              <Link href="https://wa.me/6285718465342" isExternal>
                 <Button
                   px={5}
                   bgColor="blackAlpha.300"
