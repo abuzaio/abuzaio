@@ -159,7 +159,7 @@
   },
   {
     "type": "web",
-    "url": "https://hooda.id/",
+    "url": "https://www.hooda.id/",
     "picture": "/portfolios/hooda.png",
     "title": "Hooda",
     "description": "Super app service likes food, shop, drive, mitra and career",
@@ -178,30 +178,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/node.svg"
-      }
-    ]
-  },
-  {
-    "type": "mobile",
-    "url": "https://github.com/abuazis/Fudamiku",
-    "picture": "/portfolios/fudamiku.png",
-    "title": "Fudamiku",
-    "description": "Order food system for Fudamiku Restaurant",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/flutter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/laravel.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/midtrans.svg"
       }
     ]
   },
@@ -292,25 +268,6 @@
         "width": 42,
         "height": 42,
         "logo": "/techstacks/bootstrap.svg"
-      }
-    ]
-  },
-  {
-    "type": "mobile",
-    "url": "/#",
-    "picture": "/portfolios/go-hospital.png",
-    "title": "Go Hospital",
-    "description": "Booking medical service apps for Columbia Asia Hospital in Medan",
-    "stacks": [
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/flutter.svg"
-      },
-      {
-        "width": 42,
-        "height": 42,
-        "logo": "/techstacks/firebase.svg"
       }
     ]
   },
