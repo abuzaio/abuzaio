@@ -12,7 +12,6 @@ export default function Footer() {
       >
         {/* COPYRIGHT TEXT */}
         <Text
-          color="#AAA"
           fontSize={["sm", "md"]}
           textAlign={["center", "left"]}
           mb={[4, 0]}
