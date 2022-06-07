@@ -70,10 +70,11 @@ export default function Navbar() {
 
         {/* SWITCH THEME */}
         <Button
+          _focus
+          aria-label="Change Theme"
           width={[4, 8, 10]}
           height={[6, 8, 10]}
           borderRadius="full"
-          _focus
           outline="none"
           onClick={toggleColorMode}
         >

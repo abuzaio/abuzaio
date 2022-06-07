@@ -23,27 +23,27 @@ export default function Footer() {
         <Flex direction="row">
           {/* TWITTER LINK */}
           <Link href="https://twitter.com/abuzaio">
-            <a target="_blank">
+            <a target="_blank" aria-label="Twitter">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/icons/twitter.svg" width={20} height={20} />
+                <Image alt="Checked Icon" src="/icons/twitter.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>
 
           {/* GITHUB LINK */}
           <Link href="https://github.com/abuazis">
-            <a target="_blank">
+            <a target="_blank" aria-label="Github">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/icons/github.svg" width={20} height={20} />
+                <Image alt="Checked Icon" src="/icons/github.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>
 
           {/* EMAIL ACTION */}
           <Link href="mailto:abuaziscorp@gmail.com">
-            <a target="_blank">
+            <a target="_blank" aria-label="Email">
               <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image src="/icons/email.svg" width={20} height={20} />
+                <Image alt="Checked Icon" src="/icons/email.svg" width={20} height={20} />
               </Box>
             </a>
           </Link>

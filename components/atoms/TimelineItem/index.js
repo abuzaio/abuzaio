@@ -6,7 +6,7 @@ export default function TimelineItem({ title, description }) {
     <Box ml={[1, 5]} mb={[8, 9]}>
       <Flex direction="row">
         <Box mr={4} mt={1}>
-          <Image src="/icons/check.svg" width={18} height={18} />
+          <Image alt="Checked Icon" src="/icons/check.svg" width={18} height={18} />
         </Box>
         <Text fontWeight="bold" fontSize={["md", "lg"]}>
           {title}
