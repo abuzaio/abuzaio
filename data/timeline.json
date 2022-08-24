@@ -3,10 +3,6 @@
     "year": "2021",
     "achievements": [
       {
-        "title": "Doing Some Open Source Projects",
-        "description": "Collect and analyze NASA exo-planets data in outer sollar system."
-      },
-      {
         "title": "Did A Lot of Freelance Projects",
         "description": "Did multiple freelance projects with multiple organizations and clients."
       },
@@ -21,11 +17,7 @@
     "achievements": [
       {
         "title": "Won 1st Place in App Development Challenge",
-        "description": "Marathon challenge to build hospital problem solution in 7 days using Flutter."
-      },
-      {
-        "title": "Biggest Project Yet",
-        "description": "Building from scratch food order payment gateway system."
+        "description": "Marathon challenge to implemented hospital problem solution in 7 days using Flutter."
       },
       {
         "title": "Graduated from Vocational High School",
@@ -36,10 +28,6 @@
   {
     "year": "2019",
     "achievements": [
-      {
-        "title": "Got My First Paid Fullstack Project",
-        "description": "Building online shop website for my bussiness's friend."
-      },
       {
         "title": "Got Internship at Diginova Kreasi Indonesia",
         "description": "Think to solve problem by building software products for my school."
@@ -52,15 +40,6 @@
       {
         "title": "One of My First Real Codes",
         "description": "Got into basic programming in highschool. Used C++ to solve algorithm."
-      }
-    ]
-  },
-  {
-    "year": "2002",
-    "achievements": [
-      {
-        "title": "Signed in The Game",
-        "description": ""
       }
     ]
   }

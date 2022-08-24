@@ -23,8 +23,8 @@ export default function Navbar() {
         </Link>
         <Spacer />
 
-        {/* PORTFOLIO LINK */}
-        <Link href="/portfolio">
+        {/* HOME LINK */}
+        <Link href="/">
           <Text
             ml={[4, 10, 16, 12]}
             fontSize={["sm", "md"]}
@@ -34,7 +34,7 @@ export default function Navbar() {
               textDecoration: "underline",
             }}
           >
-            Portfolio
+            Home
           </Text>
         </Link>
 
