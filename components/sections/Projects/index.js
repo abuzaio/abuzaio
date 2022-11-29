@@ -1,17 +1,17 @@
 import Image from "next/image";
 import PortoCard from "../../atoms/PortoCard";
-import portfolioData from "../../../data/portfolio.json";
+import projectData from "../../../data/project.json";
 import WhatsappIcon from "../../../public/icons/whatsapp.svg";
 import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Fade, Flex, Link, Text } from "@chakra-ui/react";
 
-export default function Portfolio({ type }) {
+export default function Projects({ type }) {
   const [showAll, setShowAll] = useState(false);
 
   return (
     <Box px={[8, 10, 20, 24]} py={[8, 10]}>
-      <Center h={120}>
+      <Center minHeight="md">
         <Box>
           <Text
             fontSize={["3xl", "4xl"]}
@@ -19,7 +19,7 @@ export default function Portfolio({ type }) {
             letterSpacing="widest"
             textAlign="center"
           >
-            Portfolio
+            Projects
           </Text>
           <Text textAlign="center" mt={4}>
             I aim to solve client&apos;s design and fullstack projects, feel
@@ -27,11 +27,11 @@ export default function Portfolio({ type }) {
           </Text>
         </Box>
       </Center>
-      {portfolioData
+      {/* {projectData
         .filter((element) =>
           type === "mobile" || type === "web" ? element.type == type : true
         )
-        .slice(0, showAll ? portfolioData.length : 11)
+        .slice(0, showAll ? projectData.length : 11)
         .map((value, index) => (
           <Fade key={index} in={true}>
             <PortoCard
@@ -101,7 +101,7 @@ export default function Portfolio({ type }) {
             </Center>
           </Box>
         </Flex>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

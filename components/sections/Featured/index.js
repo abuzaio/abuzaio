@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/layout";
 import PostItem from "../../atoms/PostItem";
-import postData from "../../../data/post.json";
+import publicationData from "../../../data/publication.json";
 
 export default function Featured() {
   return (
@@ -16,10 +16,10 @@ export default function Featured() {
       </Text>
 
       {/* POST ITEM 1 */}
-      {postData.map((value, index) => (
+      {publicationData.map((value, index) => (
         <PostItem
           key={index}
-          route={`/blog/${value.title.toLowerCase().replace(" ", "-")}`}
+          route={`/publication/${value.title.toLowerCase().replace(" ", "-")}`}
           title={value.title}
           subtitle={value.subtitle}
         />

@@ -1,11 +1,11 @@
 import { Box, Center, Text } from "@chakra-ui/react";
 import PostItem from "../../atoms/PostItem";
-import postData from "../../../data/post.json";
+import publicationData from "../../../data/publication.json";
 
-export default function Blog() {
+export default function Publication() {
   return (
     <Box px={[8, 10, 20, 24, 48]} py={[8, 10]}>
-      <Center h={120}>
+      <Center>
         <Box>
           <Text
             fontSize={["3xl", "4xl"]}
@@ -13,7 +13,7 @@ export default function Blog() {
             letterSpacing="widest"
             textAlign="center"
           >
-            Blog
+            Publication
           </Text>
           <Text textAlign="center" mt={4}>
             Writing casually about thoughts on habits and self-reflection.
@@ -23,10 +23,10 @@ export default function Blog() {
 
       <Box my={[20, 20, 28]}>
         {/* POST ITEM 1 */}
-        {postData.map((value, index) => (
+        {publicationData.map((value, index) => (
           <PostItem
             key={index}
-            route={`/blog/${value.title.toLowerCase().replace(" ", "-")}`}
+            route={`/publication/${value.title.toLowerCase().replace(" ", "-")}`}
             title={value.title}
             subtitle={value.subtitle}
           />

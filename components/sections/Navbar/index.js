@@ -38,8 +38,8 @@ export default function Navbar() {
           </Text>
         </Link>
 
-        {/* BLOG LINK */}
-        <Link href="/blog">
+        {/* Projects LINK */}
+        <Link href="/projects">
           <Text
             ml={[4, 10, 16, 12]}
             fontSize={["sm", "md"]}
@@ -49,7 +49,22 @@ export default function Navbar() {
               textDecoration: "underline",
             }}
           >
-            Blog
+            Projects
+          </Text>
+        </Link>
+
+        {/* PUBLICATION LINK */}
+        <Link href="/publication">
+          <Text
+            ml={[4, 10, 16, 12]}
+            fontSize={["sm", "md"]}
+            cursor="pointer"
+            userSelect="none"
+            _hover={{
+              textDecoration: "underline",
+            }}
+          >
+            Publication
           </Text>
         </Link>
 
