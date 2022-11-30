@@ -4,10 +4,10 @@ import { fetchContentPosts } from "../data/api/content";
 
 export default function Home({ posts }) {
   return (
-    <>
+    <Box>
       <Hero />
       <Featured posts={posts} />
-    </>
+    </Box>
   );
 }
 
