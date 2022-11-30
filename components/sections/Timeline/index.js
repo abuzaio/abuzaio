@@ -1,7 +1,7 @@
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import { Box, Fade, Flex, Text } from "@chakra-ui/react";
 import TimelineItem from "../../atoms/TimelineItem";
-import timelineData from "../../../data/timeline.json";
+import timelineData from "../../../data/dummy/timeline.json";
 import { useState } from "react";
 
 export default function Timeline() {

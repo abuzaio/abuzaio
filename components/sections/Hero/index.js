@@ -1,6 +1,5 @@
 import { Box, Flex, Text } from "@chakra-ui/layout";
-import Image from "next/image";
-import heroData from "../../../data/hero.json";
+import heroData from "../../../data/dummy/hero.json";
 
 export default function Hero() {
   return (

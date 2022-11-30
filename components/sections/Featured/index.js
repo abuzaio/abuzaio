@@ -1,8 +1,7 @@
 import { Box, Text } from "@chakra-ui/layout";
 import PostItem from "../../atoms/PostItem";
-import publicationData from "../../../data/publication.json";
 
-export default function Featured() {
+export default function Featured({ posts }) {
   return (
     <Box px={[8, 10, 20, 24, 48]} py={[8, 10]}>
       {/* SECTION TITLE */}
@@ -12,16 +11,15 @@ export default function Featured() {
         letterSpacing="wider"
         mb={[8, 10]}
       >
-        Featured Posts
+        Featured Publications
       </Text>
 
-      {/* POST ITEM 1 */}
-      {publicationData.map((value, index) => (
+      {posts.map((value, index) => (
         <PostItem
           key={index}
-          route={`/publication/${value.title.toLowerCase().replace(" ", "-")}`}
+          route={`/publication/${value.slug}`}
           title={value.title}
-          subtitle={value.subtitle}
+          subtitle={value.html}
         />
       ))}
     </Box>

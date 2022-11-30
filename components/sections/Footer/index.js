@@ -21,31 +21,52 @@ export default function Footer() {
         <Spacer />
         <Flex direction="row">
           {/* TWITTER LINK */}
-          {/* <Link href="https://twitter.com/abuzaio"> */}
-            <a target="_blank" aria-label="Twitter">
-              <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image alt="Checked Icon" src="/icons/twitter.svg" width={20} height={20} />
-              </Box>
-            </a>
-          {/* </Link> */}
+          <Link
+            href="https://twitter.com/abuzaio"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
+              <Image
+                alt="Checked Icon"
+                src="/icons/twitter.svg"
+                width={20}
+                height={20}
+              />
+            </Box>
+          </Link>
 
           {/* GITHUB LINK */}
-          <Link href="https://github.com/ruizenio">
-            <a target="_blank" aria-label="Github">
-              <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image alt="Checked Icon" src="/icons/github.svg" width={20} height={20} />
-              </Box>
-            </a>
+          <Link
+            href="https://github.com/ruizenio"
+            target="_blank"
+            aria-label="Github"
+          >
+            <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
+              <Image
+                alt="Checked Icon"
+                src="/icons/github.svg"
+                width={20}
+                height={20}
+              />
+            </Box>
           </Link>
 
           {/* EMAIL ACTION */}
-          {/* <Link href="mailto:abuaziscorp@gmail.com"> */}
-            <a target="_blank" aria-label="Email">
-              <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
-                <Image alt="Checked Icon" src="/icons/email.svg" width={20} height={20} />
-              </Box>
-            </a>
-          {/* </Link> */}
+          <Link
+            href="mailto:abuaziscorp@gmail.com"
+            target="_blank"
+            aria-label="Email"
+          >
+            <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
+              <Image
+                alt="Checked Icon"
+                src="/icons/email.svg"
+                width={20}
+                height={20}
+              />
+            </Box>
+          </Link>
         </Flex>
       </Flex>
     </Box>

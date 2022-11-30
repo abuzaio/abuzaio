@@ -1,38 +1,32 @@
 import { ChakraProvider } from "@chakra-ui/react";
-import { useRouter } from "next/dist/client/router";
 import Head from "next/head";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Footer from "../components/sections/Footer";
 import Navbar from "../components/sections/Navbar";
 import theme from "../config/theme";
-import * as gtag from "../lib/gtag";
+import { Analytics } from '@vercel/analytics/react';
 
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter();
+  const [showChild, setShowChild] = useState(false)
 
   useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageview(url);
-    };
+    setShowChild(true)
+  }, [])
 
-    router.events.on("routeChangeComplete", handleRouteChange);
-
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
+  if (!showChild) {
+    return null
+  }
 
   return (
     <>
       <Head>
-        <title>Abu Aziz - Portfolio & Writings</title>
+        <title>Abu Aziz - Project & Publication</title>
         <meta
           name="description"
           content="Professional Software Developer 
-          who experienced on software development 
-          and currently running Expasion Works"
+          who experienced on software development"
         />
         <link rel="icon" href="/icons/banana.png" />
         <meta
@@ -43,6 +37,7 @@ function MyApp({ Component, pageProps }) {
       <ChakraProvider theme={theme}>
         <Navbar />
         <Component {...pageProps} />
+        <Analytics />
         <Footer />
       </ChakraProvider>
     </>

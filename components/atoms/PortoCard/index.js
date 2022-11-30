@@ -12,79 +12,73 @@ export default function PortoCard({
 }) {
   return (
     <>
-      <Link href={url}>
-        <a target="_blank">
-          <Box
-            my={[20, 20, 28]}
-            bgColor=""
-            transitionDuration="1s"
-            cursor="pointer"
+      <Link href={url} target="_blank">
+        <Box
+          my={[20, 20, 28]}
+          bgColor=""
+          transitionDuration="1s"
+          cursor="pointer"
+          borderRadius="lg"
+          _hover={{ boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
+        >
+          <Flex
+            direction={
+              isOdd
+                ? ["column", "column", "column", "row"]
+                : ["column", "column", "column", "row-reverse"]
+            }
+            justifyContent="space-between"
+            alignItems="center"
             borderRadius="lg"
-            _hover={{ boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1)" }}
           >
-            <Flex
-              direction={
-                isOdd
-                  ? ["column", "column", "column", "row"]
-                  : ["column", "column", "column", "row-reverse"]
-              }
-              justifyContent="space-between"
-              alignItems="center"
-              borderRadius="lg"
+            <Image
+              src={imageSrc}
+              width={576}
+              height={336}
+              objectFit="cover"
+              placeholder="blur"
+              blurDataURL={imageSrc}
+              quality={100}
+              className="porto-image"
+            />
+            <Box
+              p={[9, 9, 10, 12]}
+              px={[4, 6, 0, 12]}
+              w={["100%", "100%", "70%", "50%"]}
+              h="100%"
             >
-              <Image
-                src={imageSrc}
-                width={576}
-                height={336}
-                objectFit="cover"
-                placeholder="blur"
-                blurDataURL={imageSrc}
-                quality={100}
-                className="porto-image"
-              />
-              <Box
-                p={[9, 9, 10, 12]}
-                px={[4, 6, 0, 12]}
-                w={["100%", "100%", "70%", "50%"]}
-                h="100%"
+              <Flex
+                direction="column"
+                justifyContent="center"
+                alignItems="start"
               >
-                <Flex
-                  direction="column"
-                  justifyContent="center"
-                  alignItems="start"
+                <Text
+                  fontSize={["lg", "xl", "2xl", "3xl"]}
+                  fontWeight="bold"
+                  opacity={0.875}
+                  mb={2}
                 >
-                  <Text
-                    fontSize={["lg", "xl", "2xl", "3xl"]}
-                    fontWeight="bold"
-                    opacity={0.875}
-                    mb={2}
-                  >
-                    {title}
+                  {title}
+                </Text>
+                <Text fontSize={["sm", "md", "md", "lg"]} color="grey">
+                  {description}
+                </Text>
+                <Box mt={[6, 8]}>
+                  <Text fontWeight="bold" fontSize={["md", "md", "lg"]} mb={2}>
+                    Tech Stack :
                   </Text>
-                  <Text fontSize={["sm", "md", "md", "lg"]} color="grey">
-                    {description}
-                  </Text>
-                  <Box mt={[6, 8]}>
-                    <Text
-                      fontWeight="bold"
-                      fontSize={["md", "md", "lg"]}
-                      mb={2}
-                    >
-                      Tech Stack :
-                    </Text>
-                    <Flex direction="row" alignItems="center">
-                      {stacks.map((value, index) => (
-                        <Box key={index} mx={3} my={1}>
-                          {value}
-                        </Box>
-                      ))}
-                    </Flex>
-                  </Box>
-                </Flex>
-              </Box>
-            </Flex>
-          </Box>
-        </a>
+                  <Flex direction="row" alignItems="center">
+                    {stacks.map((value, index) => (
+                      <Box key={index} mx={3} my={1}>
+                        {value}
+                      </Box>
+                    ))}
+                  </Flex>
+                </Box>
+              </Flex>
+            </Box>
+          </Flex>
+        </Box>
       </Link>
       <style jsx global>{`
         .porto-image {

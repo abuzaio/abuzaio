@@ -1,8 +1,7 @@
 import { Box, Center, Text } from "@chakra-ui/react";
 import PostItem from "../../atoms/PostItem";
-import publicationData from "../../../data/publication.json";
 
-export default function Publication() {
+export default function Publication({ posts }) {
   return (
     <Box px={[8, 10, 20, 24, 48]} py={[8, 10]}>
       <Center>
@@ -22,13 +21,12 @@ export default function Publication() {
       </Center>
 
       <Box my={[20, 20, 28]}>
-        {/* POST ITEM 1 */}
-        {publicationData.map((value, index) => (
+        {posts.map((value, index) => (
           <PostItem
             key={index}
-            route={`/publication/${value.title.toLowerCase().replace(" ", "-")}`}
+            route={`/publication/${value.slug}`}
             title={value.title}
-            subtitle={value.subtitle}
+            subtitle={value.html}
           />
         ))}
       </Box>

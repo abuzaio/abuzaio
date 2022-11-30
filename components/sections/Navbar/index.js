@@ -3,6 +3,7 @@ import { Box, Flex, Spacer, Text } from "@chakra-ui/layout";
 import { SunIcon } from "@chakra-ui/icons";
 import { useColorMode } from "@chakra-ui/color-mode";
 import Link from "next/link";
+import { Show } from "@chakra-ui/react";
 
 export default function Navbar() {
   const { toggleColorMode } = useColorMode();
@@ -11,17 +12,19 @@ export default function Navbar() {
     <Box w="100%" px={[6, 10, 20, 24, 48]} py={[8, 10, 12]}>
       <Flex justify="space-between" alignItems="center">
         {/* BRAND TITLE */}
-        <Link href="/">
-          <Text
-            fontSize={["lg", "1xl", "2xl"]}
-            fontWeight="black"
-            cursor="pointer"
-            userSelect="none"
-          >
-            ABUZA
-          </Text>
-        </Link>
-        <Spacer />
+        <Show above="sm">
+          <Link href="/">
+            <Text
+              fontSize={["lg", "1xl", "2xl"]}
+              fontWeight="black"
+              cursor="pointer"
+              userSelect="none"
+            >
+              ABUZA
+            </Text>
+          </Link>
+          <Spacer />
+        </Show>
 
         {/* HOME LINK */}
         <Link href="/">
@@ -64,7 +67,7 @@ export default function Navbar() {
               textDecoration: "underline",
             }}
           >
-            Publication
+            Publications
           </Text>
         </Link>
 

@@ -116,23 +116,6 @@ class MyDocument extends Document {
           <link rel='apple-touch-startup-image' href='/static/images/apple_splash_1242.png' sizes='1242x2208' />
           <link rel='apple-touch-startup-image' href='/static/images/apple_splash_750.png' sizes='750x1334' />
           <link rel='apple-touch-startup-image' href='/static/images/apple_splash_640.png' sizes='640x1136' /> */}
-
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=UA-206149970-1`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'UA-206149970-1', {
-                  page_path: window.location.pathname,
-                });
-              `,
-            }}
-          />
         </Head>
         <body>
           <ColorModeScript initialColorMode={theme.config.initialColorMode} />
