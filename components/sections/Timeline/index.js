@@ -8,7 +8,7 @@ export default function Timeline() {
   const [showAll, setShowAll] = useState(false);
 
   return (
-    <Box px={[8, 10, 20, 24, 48]} py={[6, 8]}>
+    <Box px={[8, 10, 16, 48, 72]} py={[6, 8]}>
       {/* SECTION TITLE */}
       <Text
         fontWeight="extrabold"

@@ -3,7 +3,7 @@ import PostItem from "../../atoms/PostItem";
 
 export default function Publication({ posts }) {
   return (
-    <Box px={[8, 10, 20, 24, 48]} py={[8, 10]}>
+    <Box px={[8, 10, 16, 48, 72]} py={[8, 10]}>
       <Center>
         <Box>
           <Text

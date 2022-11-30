@@ -3,7 +3,7 @@ import { Box, Center, Text } from "@chakra-ui/react";
 
 export default function Project({ type }) {
   return (
-    <Box px={[8, 10, 20, 24]} py={[8, 10]}>
+    <Box px={[8, 10, 16, 48]} py={[8, 10]}>
       <Center minHeight="md">
         <Box>
           <Text

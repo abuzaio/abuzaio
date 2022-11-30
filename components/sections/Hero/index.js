@@ -3,7 +3,7 @@ import heroData from "../../../data/dummy/hero.json";
 
 export default function Hero() {
   return (
-    <Box px={[8, 10, 20, 24, 48]} py={[10]}>
+    <Box px={[8, 10, 16, 48, 72]} py={[10]}>
       <Flex
         direction={[
           "column-reverse",

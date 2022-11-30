@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <Box w="100%" px={[6, 10, 20, 24, 48]} py={[8, 10, 12]}>
+    <Box w="100%" px={[6, 10, 16, 48, 72]} py={[8, 10, 12]}>
       <Flex
         direction={["column", "row"]}
         justify={["center", "space-between"]}

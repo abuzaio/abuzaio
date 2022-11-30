@@ -5,7 +5,7 @@ export default function Publication({ posts }) {
   return <PublicationSection posts={posts} />;
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const result = await fetchContentPosts();
   const posts = result.posts;
 

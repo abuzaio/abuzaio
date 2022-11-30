@@ -9,13 +9,27 @@ export default function Navbar() {
   const { toggleColorMode } = useColorMode();
 
   return (
-    <Box w="100%" px={[6, 10, 20, 24, 48]} py={[8, 10, 12]}>
+    <Box w="100%" px={[4, 4, 16, 48, 72]} py={[8, 10, 12]}>
+      <Link href="/">
+        <Show below="md">
+          <Text
+            fontSize={["2xl"]}
+            fontWeight="black"
+            cursor="pointer"
+            userSelect="none"
+            textAlign="center"
+            pb="4"
+          >
+            ABUZA
+          </Text>
+        </Show>
+      </Link>
       <Flex justify="space-between" alignItems="center">
         {/* BRAND TITLE */}
-        <Show above="sm">
+        <Show above="md">
           <Link href="/">
             <Text
-              fontSize={["lg", "1xl", "2xl"]}
+              fontSize={["1xl", "2xl"]}
               fontWeight="black"
               cursor="pointer"
               userSelect="none"
