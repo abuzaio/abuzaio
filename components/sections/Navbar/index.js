@@ -38,8 +38,8 @@ export default function Navbar() {
           </Text>
         </Link>
 
-        {/* Projects LINK */}
-        <Link href="/projects">
+        {/* Project LINK */}
+        <Link href="/project">
           <Text
             ml={[4, 10, 16, 12]}
             fontSize={["sm", "md"]}

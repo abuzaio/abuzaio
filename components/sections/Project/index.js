@@ -6,7 +6,7 @@ import { useState } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@chakra-ui/icons";
 import { Box, Button, Center, Fade, Flex, Link, Text } from "@chakra-ui/react";
 
-export default function Projects({ type }) {
+export default function Project({ type }) {
   const [showAll, setShowAll] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ export default function Projects({ type }) {
             letterSpacing="widest"
             textAlign="center"
           >
-            Projects
+            Project
           </Text>
           <Text textAlign="center" mt={4}>
             I aim to solve client&apos;s design and fullstack projects, feel
