@@ -70,8 +70,8 @@ export default function Navbar() {
           </Text>
         </Link>
 
-        {/* PUBLICATION LINK */}
-        <Link href="/publication">
+        {/* BLOG LINK */}
+        <Link href="/blog">
           <Text
             ml={[4, 10, 16, 12]}
             fontSize={["sm", "md"]}
@@ -81,7 +81,7 @@ export default function Navbar() {
               textDecoration: "underline",
             }}
           >
-            Publications
+            Blogs
           </Text>
         </Link>
 

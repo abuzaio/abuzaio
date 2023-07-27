@@ -11,13 +11,13 @@ export default function Featured({ posts }) {
         letterSpacing="wider"
         mb={[8, 10]}
       >
-        Featured Publications
+        Featured Blogs
       </Text>
 
       {posts.map((value, index) => (
         <PostItem
           key={index}
-          route={`/publication/${value.slug}`}
+          route={`/blog/${value.slug}`}
           title={value.title}
           subtitle={value.html}
         />

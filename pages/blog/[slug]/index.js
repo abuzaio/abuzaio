@@ -1,7 +1,7 @@
 import { Avatar, Box, Flex, Text } from "@chakra-ui/react";
 import { fetchContentPosts, fetchPostDetail } from "../../../data/api/content";
 
-export default function PublicationDetail({ post }) {
+export default function BlogDetail({ post }) {
   return (
     <Box px={[8, 10, 16, 48, 72]} py={[8, 10]}>
       <Box>

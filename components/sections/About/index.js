@@ -14,7 +14,7 @@ export default function About() {
             About
           </Text>
           <Text textAlign="center" mt={4} maxW="2xl" lineHeight={1.7}>
-            Hey, I&apos;m Abu Aziz. Student and App Developer.
+            Hey, I&apos;m Abu Aziz. A pragmatic problem solver.
           </Text>
         </Box>
       </Center>

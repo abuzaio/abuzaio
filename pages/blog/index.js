@@ -1,8 +1,8 @@
-import PublicationSection from "../../components/sections/Publication";
+import BlogSection from "../../components/sections/Blog";
 import { fetchContentPosts } from "../../data/api/content";
 
-export default function Publication({ posts }) {
-  return <PublicationSection posts={posts} />;
+export default function Blog({ posts }) {
+  return <BlogSection posts={posts} />;
 }
 
 export async function getServerSideProps() {

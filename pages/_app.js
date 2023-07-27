@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Abu Aziz - Project & Publication</title>
+        <title>Abu Aziz - Project & Blogs</title>
         <meta
           name="description"
           content="Professional Software Developer 

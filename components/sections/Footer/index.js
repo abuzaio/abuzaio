@@ -1,8 +1,11 @@
 import { Box, Flex, Spacer, Text } from "@chakra-ui/react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from 'next/navigation'
 
 export default function Footer() {
+  const pathName = usePathname();
+
   return (
     <Box w="100%" px={[6, 10, 16, 48, 72]} py={[8, 10, 12]}>
       <Flex
@@ -22,8 +25,8 @@ export default function Footer() {
         <Flex direction="row">
           {/* TWITTER LINK */}
           <Link
-            href="https://twitter.com/abuzaio"
-            target="_blank"
+            href={pathName}
+            // target="_blank"
             aria-label="Twitter"
           >
             <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
@@ -38,8 +41,8 @@ export default function Footer() {
 
           {/* GITHUB LINK */}
           <Link
-            href="https://github.com/ruizenio"
-            target="_blank"
+            href={pathName}
+            // target="_blank"
             aria-label="Github"
           >
             <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
@@ -54,8 +57,8 @@ export default function Footer() {
 
           {/* EMAIL ACTION */}
           <Link
-            href="mailto:abuaziscorp@gmail.com"
-            target="_blank"
+            href={pathName}
+            // target="_blank"
             aria-label="Email"
           >
             <Box cursor="pointer" mx={3} _hover={{ opacity: 0.7 }}>
