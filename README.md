@@ -1,5 +1,3 @@
-I've actively contributed some open-source projects.
-
 <a href="https://github.com/abuzaio">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=abuzaio&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" />
 </a>
